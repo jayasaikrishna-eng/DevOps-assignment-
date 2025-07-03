@@ -14,7 +14,7 @@ region     = "us-east-1"
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "your-unique-bucket-name"
+  bucket = "Jaysai1000000222"
   force_destroy = true
 }
 
