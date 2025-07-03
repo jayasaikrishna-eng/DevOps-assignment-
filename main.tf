@@ -1,5 +1,16 @@
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+      version = "6.2.0"
+    }
+  }
+}
+
 provider "aws" {
-  region = "us-east-1"
+access_key = "AKIARXWKBPKUOIC2PMTL"
+secret_key = "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"
+region     = "us-east-1"
 }
 
 resource "aws_s3_bucket" "my_bucket" {
